@@ -79,6 +79,23 @@ p {
 
 }
 
+
+/*product-animation*/
+
+.glow {
+    animation-name: glow_kf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes glow_kf {
+    10% {
+        filter: drop-shadow(1px 1px 10px #00ff00);
+    }
+}
+
+
 .card {
     background-color: #0C3924;
 }
