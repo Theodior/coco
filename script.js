@@ -15,8 +15,8 @@ $(window).on('load', function () {
             'display_gallery': true,
             'callback': null,
             'styling': true,
-            'items': 8,
-            'items_per_row': 4,
+            'items': 6,
+            'items_per_row': 3,
             'margin': 1
         });
 
