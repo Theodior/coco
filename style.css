@@ -89,9 +89,22 @@ p {
     animation-timing-function: linear;
 }
 
+.glowi {
+    animation-name: glow2_kf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 @keyframes glow_kf {
     10% {
         filter: drop-shadow(1px 1px 10px #00ff00);
+    }
+}
+
+@keyframes glow2_kf {
+    10% {
+        filter: drop-shadow(1px 1px 10px #6c00ff);
     }
 }
 
