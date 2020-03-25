@@ -372,7 +372,7 @@ a:hover {
 /** NEWSLETTER **/
 
 
-input[type=text] {
+/*input[type=text] {
 
     padding: 12px 20px;
     margin: 9px 0;
@@ -462,7 +462,7 @@ button1 {
     }
 
 
-}
+} */
 
 #hero,
 .quote,
@@ -534,8 +534,11 @@ button1 {
     background-position: center;
 }
 
+
+/* vitamin info */
+
 details {
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     padding: 1rem;
 }
@@ -554,4 +557,17 @@ details[open] summary ~ * {
         opacity: 1;
         margin-left: 0px
     }
+}
+
+summary {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 1.5rem
+}
+
+summary::-webkit-details-marker {
+    display: none
+}
+
+summary:hover {
+    color: #00b252;
 }
