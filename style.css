@@ -332,6 +332,7 @@ a {
 
 a:hover {
     color: black;
+
 }
 
 .active {
@@ -346,6 +347,10 @@ a:hover {
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
 
 .cd-faq__items {

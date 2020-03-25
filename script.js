@@ -28,6 +28,7 @@ $(window).on('load', function () {
         ScrollReveal().reveal('.elementtwo');
         ScrollReveal().reveal('.vtxt');
         ScrollReveal().reveal('.quote4');
+        ScrollReveal().reveal('.bw');
         ScrollReveal().reveal('.elementthree');
         ScrollReveal().reveal('#vitaminer');
         ScrollReveal().reveal('#text3');
