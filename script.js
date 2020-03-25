@@ -8,7 +8,7 @@ $(window).on('load', function () {
 
     $(window).on('load', function () {
         $.instagramFeed({
-            'username': 'theodior',
+            'username': 'routines.showroom',
             'container': "#instagram-feed1",
             'display_profile': true,
             'display_biography': true,
@@ -19,6 +19,8 @@ $(window).on('load', function () {
             'items_per_row': 4,
             'margin': 1
         });
+
+
 
         ScrollReveal().reveal('.elementone');
         ScrollReveal().reveal('#text');

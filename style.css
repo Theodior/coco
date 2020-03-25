@@ -34,6 +34,7 @@ body {
     color: white;
 }
 
+
 :root {
     --bg-color: #0C3924;
     --link-color: #0f4d12;
@@ -140,9 +141,9 @@ p {
 
     .boks2 {
         position: relative;
-        right: -59vw;
-        top: -64vh;
-        max-width: 60vw;
+        right: -65vw;
+        top: -62vh;
+        max-width: 35vw;
     }
 
     .swipe2 {
@@ -156,7 +157,7 @@ p {
         }
 
         to {
-            right: -59vw;
+            right: -65vw;
 
         }
     }
@@ -201,8 +202,8 @@ p {
     .boks2 {
         position: relative;
         right: -57vw;
-        top: -90vh;
-        max-width: 60vw;
+        top: -105vh;
+        max-width: 45vw;
     }
 
     .swipe2 {
@@ -240,7 +241,7 @@ p {
     .boks {
         position: relative;
         left: 25vw;
-        top: -65vh;
+        top: -75vh;
         max-width: 45vw;
     }
 
@@ -260,11 +261,12 @@ p {
         }
     }
 
+
     .boks2 {
         position: relative;
-        right: -35vw;
-        top: -140vh;
-        max-width: 60vw;
+        right: -50vw;
+        top: -132vh;
+        max-width: 35vw;
     }
 
     .swipe2 {
@@ -278,7 +280,7 @@ p {
         }
 
         to {
-            right: -35vw;
+            right: -50vw;
 
         }
     }
