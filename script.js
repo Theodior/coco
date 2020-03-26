@@ -36,6 +36,7 @@ $(window).on('load', function () {
         ScrollReveal().reveal('#quote2');
         ScrollReveal().reveal('.elementfour');
         ScrollReveal().reveal('#bottles');
+        ScrollReveal().reveal('#carousel');
         ScrollReveal().reveal('#faq');
         ScrollReveal().reveal('#some');
         ScrollReveal().reveal('#home-newsletter');
