@@ -21,7 +21,6 @@ $(window).on('load', function () {
         });
 
 
-
         ScrollReveal().reveal('.elementone');
         ScrollReveal().reveal('#text');
         ScrollReveal().reveal('#quote');
