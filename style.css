@@ -177,8 +177,8 @@ p {
 
     .boks2 {
         position: relative;
-        right: -59vw;
-        top: -62vh;
+        right: -18vw;
+        top: -37vh;
         max-width: 35vw;
     }
 
@@ -193,11 +193,17 @@ p {
         }
 
         to {
-            right: -59vw;
+            right: -18vw;
 
         }
     }
+
+    #hero {
+        margin-bottom: none;
+        height: 55vh;
+    }
 }
+
 
 /* tablet */
 @media (min-width: 576px) {
@@ -214,8 +220,8 @@ p {
 
     .boks {
         position: relative;
-        left: 30vw;
-        top: -50vh;
+        left: 22vw;
+        top: -59vh;
         max-width: 45vw;
     }
 
@@ -230,15 +236,15 @@ p {
         }
 
         to {
-            left: 30vw;
+            left: 22vw;
 
         }
     }
 
     .boks2 {
         position: relative;
-        right: -57vw;
-        top: -105vh;
+        right: -17vw;
+        top: -75vh;
         max-width: 45vw;
     }
 
@@ -253,9 +259,13 @@ p {
         }
 
         to {
-            right: -57vw;
+            right: -17vw;
 
         }
+    }
+
+    #hero {
+        height: 75vh;
     }
 }
 
@@ -276,8 +286,8 @@ p {
 
     .boks {
         position: relative;
-        left: 25vw;
-        top: -75vh;
+        left: 28vw;
+        top: -85vh;
         max-width: 45vw;
     }
 
@@ -292,7 +302,7 @@ p {
         }
 
         to {
-            left: 25vw;
+            left: 28vw;
 
         }
     }
@@ -300,8 +310,8 @@ p {
 
     .boks2 {
         position: relative;
-        right: -50vw;
-        top: -132vh;
+        right: -27vw;
+        top: -100vh;
         max-width: 35vw;
     }
 
@@ -316,12 +326,14 @@ p {
         }
 
         to {
-            right: -50vw;
+            right: -27vw;
 
         }
     }
 
-
+    #hero {
+        height: 110vh;
+    }
 }
 
 section {
@@ -490,9 +502,6 @@ button1 {
     width: auto;
 }
 
-.blank {
-    height: 45rem;
-}
 
 .home-newsletter {
     padding: 80px 0;

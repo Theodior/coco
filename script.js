@@ -20,7 +20,7 @@ $(window).on('load', function () {
             'margin': 1
         });
 
-
+        // https://github.com/jlmakes/scrollreveal
         ScrollReveal().reveal('.elementone');
         ScrollReveal().reveal('#text');
         ScrollReveal().reveal('#quote');
